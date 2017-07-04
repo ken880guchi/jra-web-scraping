@@ -1,5 +1,10 @@
 {
-    "require": {
-        "fabpot/goutte": "^3.2"
+  "require": {
+    "fabpot/goutte": "^3.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ken880guchi\\Jra\\": "src/"
     }
+  }
 }
